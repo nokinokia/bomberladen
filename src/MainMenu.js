@@ -49,10 +49,10 @@ Game.MainMenu.prototype = {
       this.state.start("ChangeStage", true, false, stageBomberman);
     }, this);
 
-    var buyToken = this.add.text(
+    var bomberLaden = this.add.text(
       this.game.world.centerX + 90,
       this.game.world.centerY + 170,
-      "BUYTOKEN",
+      "$BOMBERLADEN",
       {
         font: "19px Press Start 2P",
         fill: "white",
@@ -60,12 +60,6 @@ Game.MainMenu.prototype = {
         strokeThickness: 2.5,
       }
     );
-    buyToken.inputEnabled = true;
-    buyToken.input.useHandCursor = true;
-    buyToken.events.onInputDown.add(function () {
-      // Open website in new tab
-      window.open("https://pump.fun/JCG5anq5u86ZDRyKXu56FXjKCmzN1gUVVb8ebpGQQuis", "_blank");
-    }, this);
 
     var top = this.add.text(
       this.game.world.centerX - 250,
@@ -92,9 +86,9 @@ Game.MainMenu.prototype = {
     );
 
     var description = this.add.text(
-      this.game.world.centerX - 375,
+      this.game.world.centerX - 400,
       this.game.world.centerY + 250,
-      "$BOMBERCAT ---- A game based cat bomber live on Solana network.",
+      "$BOMBERLADEN ---- Never let Osama Bin Laden live on Solana network.",
       {
         font: "12px Press Start 2P",
         fill: "white",

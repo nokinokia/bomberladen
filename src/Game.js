@@ -130,7 +130,7 @@ Game.Game.prototype = {
 
         this._soundStage.loopFull();
         
-        this.game.stage.backgroundColor = '#d4cf7c';
+        this.game.stage.backgroundColor = '#c9ab79';
     
         this._layer = this._map.createLayer('Map');
         this._layer.resizeWorld();
