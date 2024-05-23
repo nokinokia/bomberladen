@@ -52,7 +52,7 @@ Game.MainMenu.prototype = {
     var bomberLaden = this.add.text(
       this.game.world.centerX + 90,
       this.game.world.centerY + 170,
-      "$BOMBERLADEN",
+      "$BOMBLADEN",
       {
         font: "19px Press Start 2P",
         fill: "white",
@@ -86,9 +86,9 @@ Game.MainMenu.prototype = {
     );
 
     var description = this.add.text(
-      this.game.world.centerX - 400,
+      this.game.world.centerX - 375,
       this.game.world.centerY + 250,
-      "$BOMBERLADEN ---- Never let Osama Bin Laden live on Solana network.",
+      "$BOMBLADEN ---- Never let Osama Bin Laden live on Solana network.",
       {
         font: "12px Press Start 2P",
         fill: "white",
